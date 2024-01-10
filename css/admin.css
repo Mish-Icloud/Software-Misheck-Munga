@@ -1,0 +1,163 @@
+/*
+Author: Misheck Munga;
+Theme: Food order Website Admin;
+Version: 1.0;
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+
+.btn-secondary {
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn-secondary:hover {
+    background-color: #2ed573;
+}
+
+.btn-danger {
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn-danger:hover {
+    background-color: #ff4757;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+/*CSS for menu*/
+.menu {
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+/*CSS for man content*/
+.main-content {
+
+    background-color: #f5f6fa;
+    padding: 3%;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS FOR FOOTER*/
+.footer {
+    background-color: #ff7979;
+    color: white;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff7979;
+}
+
+.menu ul li a:hover {
+    color: #eb4d4b;
+
+}
+/*css for login admin*/
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+/*css for login user and login respectively frontend*/
+.text-container {
+    position: relative; /* Sets the positioning context */
+    top: 150px; /* Moves the element 150 pixels down from its normal position */
+    left: 700px; /* Moves the element 700 pixels to the right from its normal position */
+  }
+  /* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  /* }
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .show-password-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+}*/
+   
